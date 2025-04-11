@@ -32,4 +32,4 @@ jobs:
       run: poetry run make install
 
     - name: Lint using flake8
-      run: poetry run make flake8
+      run: poetry run make check
